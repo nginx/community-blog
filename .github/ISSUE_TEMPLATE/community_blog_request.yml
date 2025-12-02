@@ -1,0 +1,34 @@
+---
+name: 📝 Community blog request
+description: Suggest a new idea for a community blog
+labels: enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this idea for a new community blog!
+
+        Before you continue filling out this request, please take a moment to check that your blog idea does not exist in the [NGINX Community blog][blog] or has not been [already suggested on GitHub][issue search] 🙌
+
+        **Note:** If you are seeking community support, please start a new topic in the [NGINX Community forum][forum]. If you wish to discuss the codebase, please start a new thread via [GitHub discussions][discussions].
+
+        [issue search]: https://github.com/nginx/community-blog/search?q=is%3Aissue&type=issues
+        [blog]: https://blog.nginx.org
+        [discussions]: https://github.com/nginx/community-blog/discussions
+        [forum]: https://community.nginx.org
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Community Blog Overview
+      description: A clear and concise description of what the community blog idea is.
+      placeholder: I would like to write a community blog detailing how to accomplish "X" using an NGINX technology.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the blog idea here.
+      placeholder: Feel free to add any other context/information/screenshots/etc... that you think might be relevant to this community blog idea here.

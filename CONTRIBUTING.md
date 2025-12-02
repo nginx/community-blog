@@ -11,9 +11,7 @@ The following is a set of guidelines for contributing to this project. We really
 
 ## Getting Started
 
-Follow the instructions on the README's [Getting Started](/README.md#Getting-Started) section to get this project up and running.
-
-<!-- ### Project Overview & Structure (OPTIONAL) -->
+Follow the instructions on the README's [Blog Submission Process](/README.md#Blog-Submission-Process) section to get started!.
 
 ## Contributing
 
@@ -41,7 +39,24 @@ If you have not yet agreed to the F5 CLA terms and submit a PR to this repositor
 
 ## Code Guidelines
 
-<!-- ### Go/Python/Bash/etc... Guidelines (OPTIONAL) -->
+### Blog Markdown Guidelines
+
+- Use clear structure: start with a top-level `# Title`, then sections with `##`, `###` as needed.
+- Keep headings sentence case: e.g., `## Writing Style`.
+- Write concise paragraphs prefer short sentences. Aim for readability.
+- Use relative links within the repo (e.g., `../path/to/file.md`); avoid absolute GitHub URLs when possible.
+- Provide descriptive alt text for images: `![Alt text describing the image](path "Optional title")`.
+- Store images alongside the blog post when feasible (e.g., under `blogs/<your-blog>/assets/`).
+- Use fenced code blocks with language hints (e.g., `js`, `bash`, `yaml`). Avoid inline HTML for code styling.
+- Prefer lists over long prose for steps; use `-` for unordered lists and `1.` for ordered lists.
+- Keep line length reasonable (recommend ~120 chars). Do not hard-wrap mid-sentence unless necessary.
+- Tables are fine for compact data; keep them simple and readable.
+- Avoid raw HTML unless Markdown cannot express the layout you need.
+- Use backticks for file paths, commands, and identifiers: `README.md`, `nginx.conf`, `kubectl get pods`.
+- Include references at the end when citing external sources; link to official docs over third-party blogs.
+- File names: use lowercase kebab-case for blog directories and files (e.g., `my-first-post.md`).
+- Lint locally if you use markdown linters (e.g., `markdownlint`); fix common issues like trailing spaces and inconsistent headings.
+- Accessibility: avoid “click here”; link meaningful text and ensure sufficient contrast in any images.
 
 ### Git Guidelines
 
